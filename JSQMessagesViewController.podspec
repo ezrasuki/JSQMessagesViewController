@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 	s.frameworks			= 'QuartzCore', 'CoreGraphics'
 	s.requires_arc			= true
 
-	s.dependency 'JSQSystemSoundPlayer'
+	s.dependency 'JSQSystemSoundPlayer', '1.5.2'
 	s.dependency 'SDWebImage'
 
 end
